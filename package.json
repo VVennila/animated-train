@@ -11,6 +11,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.0"
-  }
+    "express": "^4.21.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VVennila/animated-train.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VVennila/animated-train/issues"
+  },
+  "homepage": "https://github.com/VVennila/animated-train#readme"
 }
