@@ -5,16 +5,14 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - NODE_ENV=production  # Set environment variables as needed
-    depends_on:
-      - mongodb               # Ensure MongoDB starts before the application
+      - NODE_ENV=production
 
   mongodb:
     image: mongo
     ports:
       - "27017:27017"
     volumes:
-      - mongodb_data:/data/db # Persist MongoDB data
+      - mongodb_data:/data/db
 
 volumes:
-  mongodb_data:              # Named volume for MongoDB data persistence
+  mongodb_data:
